@@ -10,7 +10,7 @@ Yumi Boot provides the Yumi Multiboot desktop application for preparing one USB 
 
 Yumi Multiboot combines image selection, target-drive safeguards, progress reporting, and result validation in one interface. The source-selection flow is implemented in [src/source-selector.tsx](src/source-selector.tsx), while [src/drive-selector.tsx](src/drive-selector.tsx) handles destination selection.
 
-![Yumi Multiboot drive selection](scr/image1.png)
+![Yumi Multiboot drive selection](src/image1.png)
 
 ## Features
 
@@ -45,7 +45,7 @@ The best choice depends on whether the drive needs one installer or several envi
 
 Yumi Multiboot emphasizes reusable multiboot media rather than a single-image workflow. A Yumi Windows 10 bootable drive can remain useful after installation because additional compatible images can be added to the same device. Firmware support, ISO compatibility, available capacity, and whether existing data must be preserved should all be checked before writing the drive.
 
-![Windows and Linux boot menu](scr/image2.png)
+![Windows and Linux boot menu](src/image2.png)
 
 ## What does Yumi Multiboot do?
 
@@ -145,7 +145,7 @@ Run the relevant checks before producing a release. Tests cover drive discovery,
 
 Compatibility reports should identify the image version, target hardware, firmware mode, partition layout, filesystem, and persistence settings. Reports should also state whether Yumi Boot completed writing and whether Yumi Multiboot displayed and launched the entry successfully.
 
-![Completed multiboot operation](scr/image3.png)
+![Completed multiboot operation](src/image3.png)
 
 ## Boot Media Vocabulary
 
